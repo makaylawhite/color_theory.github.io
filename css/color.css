@@ -1,0 +1,89 @@
+ body {
+  background-color: #016367;
+ }
+ button {
+     color: #DEA18F;
+     background-color: #213B3B;
+     border-radius: 0.5rem;
+     display: inline-block;
+     font-family: Montserrat, sans-serif;
+     font-size: 1.25rem;
+     margin: 0.5rem 0.75rem;
+     padding: 1rem;
+     text-align: center;
+     text-decoration: none;
+     transform: scale(1);
+  }
+
+ h1 {
+   font-size: 5rem;
+ }
+
+ h1, h2, h3, h4, h5 {
+   text-align: center;
+   color: #E66912;
+   font-family: Corben, sans-serif;
+ }
+
+
+ p {
+   margin-left: 200px;
+   margin-right: 200px;
+   font-family: Nobile, sans-serif;
+   font-size: 12pt;
+   font-weight: normal;
+   text-align: left;
+ }
+ p, table {
+   text-align: center;
+   color: #F4EBD0}
+
+ table {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+ }
+
+ table, td {
+   border: solid 2px #B68D40;
+ }
+
+ th {
+   border: 0px;
+ }
+
+ th,td {
+   font-color:#122620;
+ }
+
+
+ .button {
+   background-color: #9E3A14;
+   border-style:outset;
+   color: #F4EBD0;
+   font-family: Nubile, sans-serif;
+   font-size: 1.25rem;
+   margin: 0.5rem 0.75rem;
+   padding: 1rem;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .Cell {
+   color:#D6AD60;
+ }
+
+ .paragraph {
+   text-align: center;
+   font-size: 15pt;}
+
+ .table {
+   color:#E66912;
+   font-family: Corben, sans-serif;
+   text-align: left;
+
+ }
+ #textInput, #tempInput {
+   font-size: 1.10rem;
+   padding: 0.5rem;
+ }
