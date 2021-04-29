@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Color Theory </title>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben|Nobile">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="name" content="Color Theory">
+    <script src="color.js"></script>
+  </head>
+
+  <body>
+    <h1>Color Theory Basics</h1>
+
+    <p>Complementary colors (also called opposite colors) are pairs of colors that when combined, cancel eachother out and lose hue.
+      They are directly opposite of each other on the color wheel, creating the strongest possible contrast for those two colors. Using the button below,
+      submit one of the basic six colors of the rainbow to find out what its complementary <br> (or opposite) color is.</p>
+      <h4>CHOOSE FROM THE FOLLOWING:</h4>
+      <p>red, orange, yellow, green, blue, purple</p>
+      <center><input id="textInput" type="text" placeholder="e.g. blue"><br>
+        <button class="button" onclick="changeColor()">GET COMPLEMENTARY COLOR</button></center>
+
+        <h2>Color Mixing Chart<h2>
+          <p class="paragraph"> The following chart will show what color you will get when two primary colors are mixed together.</p>
+
+        <table>
+          <th style="background-color: #9E3A14; color: #0B1C48;"> Color 1 +</th><th style="background-color: #9E3A14; color: #0B1C48;"> Color 2 =</th><th style="background-color: #9E3A14; color: #0B1C48;">Color 3</th>
+            <tr><td style="background-color: #9E3A14; color: #0B1C48;">Red</td><td style="background-color: #9E3A14; color: #0B1C48;">Yellow</td><td style="background-color: #9E3A14; color: #0B1C48;">Orange</td></tr>
+            <tr><td style="background-color: #9E3A14; color: #0B1C48;">Yellow</td><td style="background-color: #9E3A14; color: #0B1C48;">Blue</td><td style="background-color: #9E3A14; color: #0B1C48;">Green</td></tr>
+            <tr><td style="background-color: #9E3A14; color: #0B1C48;">Blue</td><td style="background-color: #9E3A14; color: #0B1C48;">Red</td><td style="background-color: #9E3A14; color: #0B1C48;">Purple</td></tr>
+        </table>
+
+        <p>The color wheel is divided into warm and cool tones. Warm colors are often said to be hues from red through yellow.Warm tones often include brown and tan colors as well.
+          Cool colors are often said to be the hues from blue green through blue violet and most grays are included in the cool-tone category.</p><br>
+
+
+        <img src="images/peacock.jpg" width="600" height="400"/><br>
+        <p class="paragraph"> Knowing what you now know about warm and cool toned colors, what tones do you think are more dominant in the following picture?</p>
+        <br>
+        <input id="tempInput" type="text"><br>
+        <button class="button" onclick="chooseTemp()">SUBMIT ANSWER</button>
+
+
+
+        <h2>Color Meanings and Symbolism </h2>
+        <p class="paragraph"> For centuries, colors have been used for a variety of purposes; whether that purpose is to envoke specific emotions or grab the attention of consumers for marketing purposes, it has been proven that 90% of the snap judgments that we make are influenced by color alone.
+          Listed below are common colors. Click on each one to find out the meaning and emotion that is typically associated with each color.</p>
+
+        <h3>
+          <input class="table"type="radio" name="color" value="Red" onclick="alert('Red is the color of passion and energy. Red draws attention like no other color and radiates a strong and powerful energy that motivates us to take action. It is also the color of passion. Red is ubiquitously used to warn and signal caution and danger.');"
+          />Red<br>
+
+          <input class="table" type="radio" name="color" value="Orange" onclick="alert('Orange is the color of enthusiasm and emotion. It exudes warmth and joy and is considered a fun color that provides emotional strength. It is optimistic, uplifting, postive, and adds spontaneity, social communication, and creativity to life. It is a youthful and energetic color.');"
+          />Orange<br>
+
+          <input class="table" type="radio" name="color" value="Yellow" onclick="alert('Yellow is the color of happiness and optimism. Yellow is a cheerful and energetic color that brings fun and joy to the world. It makes learning easier as it affects the logical part of the brain, stimulating mentality and perception.It inspires thought and curiosity and boosts enthusiasm and confidence.');"
+          />Yellow<br>
+
+          <input class="table" type="radio" name="color" value="Green" onclick="alert('Green is the color of harmony and health. Green is a generous, relaxing color that revitalizes our body and mind. It balances our emotions and leaves us feeling safe and secure. It also gives us hope, with promises of growth and prosperity, and it provides a little bit of luck to help us along the way.');"
+          />Green<br>
+
+          <input class="table" type="radio" name="color" value="Blue" onclick="alert('Blue is the color of trust and loyalty. Blue has a calming and relaxing effect on our psyche, that gives us peace and makes us feel confident and secure. It dislikes confrontation and too much attention, but it is an honest, reliable and responsible color and you can always count on its support.');"
+          />Blue<br>
+
+          <input class="table" type="radio" name="color" value="Purple" onclick="alert('Purple is the color of spirituality and imagination. Purple inspires us to divulge our innermost thoughts, which enlightens us with wisdom of who we are and encourages spiritual growth. It is often associated with royalty and luxury, and its mystery and magic sparks creative fantasies.');"
+          />Purple<br>
+         </h3>
+          <br>
+
+  </body>
+
+</html>
